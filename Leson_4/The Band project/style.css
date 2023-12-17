@@ -1,0 +1,59 @@
+.nav{
+    background-color: black;
+    display: flex;
+}
+
+.nav_items{
+    color: white;
+    padding: 10px;
+    display: block;
+    
+}
+.slideshow_image{
+    width: 100%;
+}
+
+.about_Title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.info_about_Tille{ 
+    text-align: center;
+}
+.about_members{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+.image_about_band_members{
+    width: 200px;
+}
+.about_band_members{
+    display: flex;
+    justify-content: space-around;
+}
+.contact_tille{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+.contact_p{
+    text-align: center;
+}
+.line{
+    background-color: #000000;
+    max-width: 100%;
+    height: 1px;
+}
+.send{
+    background-color: #000000;
+    color: aliceblue;
+    padding: 15px;
+    width: 50px;
+    
+}
+.map_img{
+    width: 1300px;
+}

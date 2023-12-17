@@ -1,0 +1,100 @@
+html {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+    background-color: #eee;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post_container {
+    height: 450px;
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+.avatar_image {
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.userInfo {
+    display: flex;
+    margin: 10px;
+}
+
+.name_container {
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.userName {
+    font-weight: bold;
+}
+
+.idName {
+    font-size: 13px;
+}
+
+.icon_container {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    justify-content: end;
+}
+
+.post_img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.post_like {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment_container {
+    display: flex;
+    align-items: center;
+}
+
+.comment_count {
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.user_status {
+    padding: 10px;
+}
+
+.status_content {
+    font-size: 12px;
+}
+
+.user_comment {
+    width: 95%;
+    height: 25px;
+    background-color: rgba(0, 0, 0, 0.073);
+    margin: 0 auto;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.comment_content {
+    font-size: 12px;
+}
